@@ -19,8 +19,8 @@ let intervalId = null;
 
 // for selection demo
 let config = null;
-const bufferSizeForCapValues = 10;
-const bufferSizeForSelectedNodes = 10;
+const bufferSizeForCapValues = 8;
+const bufferSizeForSelectedNodes = 8;
 let prevSelectedNode = -1;
 const bufferedCapValues = [];
 const bufferedSelectedNodes = [];

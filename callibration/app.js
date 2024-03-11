@@ -47,6 +47,7 @@ findSerialPortPath.then(serialPortPath => {
   })
 
   if (serialPortPath) {
+    console.log("serial path", serialPortPath);
     console.log("Using serial port connection");
     serialPort = new SerialPort({
       path: serialPortPath,
