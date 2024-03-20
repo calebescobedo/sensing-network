@@ -1,4 +1,4 @@
-#include <CapacitiveSensor.h> // to use Arduino Uno R3, change this to Paul Bagder's Capacitive Sensing Library
+#include <CapacitiveSensorR4.h> // to use Arduino Uno R3, change this to Paul Bagder's Capacitive Sensing Library
 
 CapacitiveSensor cs_5_2 = CapacitiveSensor(5,2);        // 10M resistor between pins 4 & 2, pin 2 is sensor pin, add a wire and or foil if desired
 
