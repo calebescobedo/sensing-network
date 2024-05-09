@@ -24,13 +24,13 @@ def plot_data(int_data):
     - int_data: A list of integers to plot.
     """
     plt.plot(int_data)
-    plt.xlabel('Index')
-    plt.ylabel('Value')
-    plt.title('Integer Data Plot')
+    plt.xlabel('Index -- Will change to time in ms soon.')
+    plt.ylabel('Value -- Clockcycles to trigger pin?')
+    plt.title('Flexible Robot Skin Capacitive Sensor Data - 30min No Charger 51ohm 115200 baud')
     plt.grid(True)
     plt.show()
 
 if __name__ == "__main__":
-    file_path = "/Users/calebescobedo/cap_test/sensing-network/hiro/data/4_sensor_cap_data.txt"  # Change this to your file path
+    file_path = "/Volumes/DEBIAN/3dp_roboskin_data/05_08_24_calebs_house_30_min_no_touch_on_charger_51ohm_115200baud.txt"  # Change this to your file path
     int_data = read_int_data_from_file(file_path)
     plot_data(int_data)
